@@ -1,13 +1,64 @@
-header{
-    background: #D9D9D96E;
+body{
+    font-family: 'Inria Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+$dark-green:#28A745;
+a{
+    text-decoration: none;
+    color: white !important;;
+}
+.text-green{
+    color:$dark-green!important;
 }
 ul{
     list-style-type: none;
-    a{
-        text-decoration: none;
-        color:black;
-    }
 }
 .signup-button{
-    background-color: #28A745;
+    background-color:$dark-green;
+    padding:9px 12px;
+    border-radius: 8px;
+    border:0px;
+    color:white;
+    gap: 3px;
+    width: 115px;
+    height: 43px;
+   
 }
+i{
+    width: 27px;
+    height: 24px;
+}
+main{
+    background-image:url(./images/bgImg.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+section{
+    margin-top: 128px;
+}
+._heading{
+    font-size: 60px;
+    line-height: 79px;
+    color: white;
+}
+._pramotion{
+    font-size: 20px;
+    color: white;
+}
+.connect{
+    button{
+        background-color: #28A745;
+        border-radius: 8px;
+        padding: 10px;
+        border:0;
+        color: white;
+    }
+}
+// responsive //
+
+// @media screen and(max-width:768px){
+    
+// }
