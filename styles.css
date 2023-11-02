@@ -91,7 +91,8 @@ article .nav-pills .nav-link.active, article .nav-pills .show > .nav-link {
   background-color: #28A745;
 }
 article .line {
-  margin-top: 20px;
+  display: inline-block;
+  margin-top: 10px;
   width: 193px;
   margin: 0 auto;
   background-color: #28A745;
