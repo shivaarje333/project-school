@@ -4,8 +4,7 @@ body {
 
 
 a {
-  text-decoration: none;
-  color: white !important;
+  color: black !important;
 }
 
 .text-green {
@@ -37,6 +36,10 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+main a {
+  text-decoration: none;
+  color: white !important;
 }
 
 /* section {
