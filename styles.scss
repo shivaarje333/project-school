@@ -77,44 +77,10 @@ section{
         color: white;
     }
 }
-article{
-    margin-top: 83px;
-    text-align: center;
-    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-        color: white!important;
-        background-color: $dark-green;
-    }
-    .line{
-        display: inline-block;
-        margin-top: 10px;
-        width: 193px;
-       margin: 0 auto;
-        background-color: $dark-green;
-        height: 3px;
-    }
-      p{
-        margin-bottom: 0 !important;
-        font-size: 15px;
-    }
-  
+.btn{
+    padding: 6px 16px;
+    font-size: 0.9rem;
 }
-footer{
-    li{
-        margin-bottom:1px;
-    }
-    margin-top: 20px;
-    padding: 25px;
-   background: linear-gradient(210.37deg, rgba(16, 54, 123, 0.88) 21.73%, rgba(16, 54, 123, 0) 132.48%);
-a ,p,h4 {
-    color: white!important;
-}
-p{
-    margin-bottom: 0 !important;
-    font-size: 15px;
-}
-
-}
-
 // responsive //
 
 // @media screen and(max-width:768px){
