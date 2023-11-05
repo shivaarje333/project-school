@@ -6,8 +6,7 @@ body {
 }
 
 a {
-  text-decoration: none;
-  color: white !important;
+  color: black !important;
 }
 
 .text-green {
@@ -40,9 +39,28 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
 }
+main a {
+  text-decoration: none;
+  color: white !important;
+}
 
 section {
-  margin-top: 128px;
+  position: relative;
+  margin-top: 70px;
+  padding-bottom: 114px;
+}
+section .card {
+  position: absolute;
+  margin-top: 29px;
+  margin-right: 87px;
+}
+section .card p {
+  margin-bottom: 0 !important;
+  font-size: 14px;
+}
+section .card .logo img {
+  width: 250px;
+  margin-left: 22px;
 }
 
 ._heading {
