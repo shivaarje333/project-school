@@ -5,16 +5,8 @@ body {
   font-family: "Roboto Slab", serif;
 }
 
-a {
-  color: black !important;
-}
-
 .text-green {
   color: #28A745 !important;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .signup-button {
@@ -24,52 +16,57 @@ ul {
   border: 0px;
   color: white;
   gap: 3px;
-  width: 115px;
   height: 43px;
+  width: 115px;
 }
 
-i {
+.navigator a {
+  color: black !important;
+}
+.navigator i {
   width: 27px;
   height: 24px;
 }
 
-main {
+.sclInfo {
+  margin-top: 100px;
+  padding: 20x;
+  box-shadow: 0px 0px 0px 0px;
+}
+.sclInfo .signup-button {
+  width: 130px;
+}
+
+.hero {
   background-image: url(./images/bgImg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-main a {
-  text-decoration: none;
-  color: white !important;
-}
-
-section {
+  margin-top: 10px;
   position: relative;
-  margin-top: 70px;
   padding-bottom: 114px;
 }
-section .card {
+.hero .card {
   position: absolute;
   margin-top: 29px;
   margin-right: 87px;
 }
-section .card p {
+.hero .card p {
   margin-bottom: 0 !important;
   font-size: 14px;
 }
-section .card .logo img {
+.hero .card .logo img {
   width: 250px;
   margin-left: 22px;
 }
 
-._heading {
+.heading {
   font-size: 60px;
   line-height: 79px;
   color: white;
 }
 
-._pramotion {
+.pramotion {
   font-size: 20px;
   color: white;
 }
@@ -82,7 +79,42 @@ section .card .logo img {
   color: white;
 }
 
-.btn {
-  padding: 6px 16px;
-  font-size: 0.9rem;
+.tabs-section {
+  margin-top: 83px;
+  text-align: center;
+}
+.tabs-section .nav-pills .nav-link.active, .tabs-section .nav-pills .show > .nav-link {
+  color: white !important;
+  background-color: #28A745;
+}
+.tabs-section .tab a {
+  color: gray;
+}
+.tabs-section .line {
+  display: inline-block;
+  margin-top: 10px;
+  width: 193px;
+  margin: 0 auto;
+  background-color: #28A745;
+  height: 3px;
+}
+.tabs-section p {
+  margin-bottom: 0 !important;
+  font-size: 15px;
+}
+
+.foot {
+  margin-top: 20px;
+  padding: 25px;
+  background: linear-gradient(210.37deg, rgba(16, 54, 123, 0.88) 21.73%, rgba(16, 54, 123, 0) 132.48%);
+}
+.foot li {
+  margin-bottom: 1px;
+}
+.foot a, .foot p, .foot h4 {
+  color: white !important;
+}
+.foot p {
+  margin-bottom: 0 !important;
+  font-size: 15px;
 }/*# sourceMappingURL=styles.css.map */

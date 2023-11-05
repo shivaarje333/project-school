@@ -4,44 +4,53 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
 }
-$dark-green:#28A745;
-a{
-    color:black !important;
-}
-.text-green{
-    color:$dark-green!important;
-}
-ul{
-    list-style-type: none;
-}
-.signup-button{
+
+@mixin modifiedbtn{
     background-color:$dark-green;
     padding:9px 12px;
     border-radius: 8px;
     border:0px;
     color:white;
     gap: 3px;
-    width: 115px;
-    height: 43px;
-   
+    height: 43px;  
 }
-i{
-    width: 27px;
-    height: 24px;
+// color variable
+$dark-green:#28A745;
+$text-lightgrey:#000000;
+
+// implement 
+.text-green{
+    color:$dark-green!important;
 }
-main{
+.signup-button{
+   @include modifiedbtn;
+   width: 115px;
+}
+.navigator{
+    a{
+        color: black!important;
+    }
+    i{
+        width: 27px;
+        height: 24px;
+    }
+}
+.sclInfo{
+    margin-top: 100px;
+    padding: 20x;
+    box-shadow: 0px 0px 0px 0px;
+
+    .signup-button{
+        width: 130px;
+    }
+}
+.hero{
     background-image:url(./images/bgImg.png);
     background-position:center;
     background-repeat:no-repeat;
     background-size:cover;
-    a{
-        text-decoration: none;
-        color: white !important;;
-    }
-}
-section{
+    margin-top: 10px;
     position: relative;;
-    margin-top: 70px;
     padding-bottom: 114px;
     .card{position: absolute;
         margin-top: 29px;
@@ -59,12 +68,12 @@ section{
     }
 }
 
-._heading{
+.heading{
     font-size: 60px;
     line-height: 79px;
     color: white;
 }
-._pramotion{
+.pramotion{
     font-size: 20px;
     color: white;
 }
@@ -77,10 +86,49 @@ section{
         color: white;
     }
 }
-.btn{
-    padding: 6px 16px;
-    font-size: 0.9rem;
+.tabs-section{
+    margin-top: 83px;
+    text-align: center;
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+        color: white!important;
+        background-color: $dark-green;
+    }
+    .tab{
+        a{
+           color:gray;
+        }
+    }
+    .line{
+        display: inline-block;
+        margin-top: 10px;
+        width: 193px;
+       margin: 0 auto;
+        background-color: $dark-green;
+        height: 3px;
+    }
+      p{
+        margin-bottom: 0 !important;
+        font-size: 15px;
+    }
+  
 }
+.foot{
+    li{
+        margin-bottom:1px;
+    }
+    margin-top: 20px;
+    padding: 25px;
+   background: linear-gradient(210.37deg, rgba(16, 54, 123, 0.88) 21.73%, rgba(16, 54, 123, 0) 132.48%);
+a ,p,h4 {
+    color: white!important;
+}
+p{
+    margin-bottom: 0 !important;
+    font-size: 15px;
+}
+
+}
+
 // responsive //
 
 // @media screen and(max-width:768px){
