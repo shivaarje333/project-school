@@ -1,0 +1,37 @@
+.btn {
+     padding: 6px 16px;
+     font-size: 0.9rem;
+   }
+
+.control-next, .control-prev {
+    position: absolute;
+ 
+    right: -700px;
+    z-index: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    color: #fff;
+    background:#03B97C;;
+    opacity: 1;
+    transition: opacity .15s ease; 
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+}
+.control-prev{
+  right: -600px;
+}
+#signinform{
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 50%;
+  top: 144px;
+  background: white;
+  z-index: 999;
+}

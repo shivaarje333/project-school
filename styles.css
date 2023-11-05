@@ -1,7 +1,9 @@
 body {
-  font-family: Abhaya Libre ExtraBold;
+  font-family: "Inria Serif", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
-
 
 a {
   text-decoration: none;
@@ -39,9 +41,9 @@ main {
   background-size: cover;
 }
 
-/* section {
+section {
   margin-top: 128px;
-} */
+}
 
 ._heading {
   font-size: 60px;
@@ -60,32 +62,9 @@ main {
   padding: 10px;
   border: 0;
   color: white;
+}
+
+.btn {
+  padding: 6px 16px;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=styles.css.map */
-
-/* gulshan codes */
-*{
-  padding: 0px;
-  margin: 0 auto;
-}
-
-.scl-data{
-  top: 120px;
-  left: 52px;
-  color: white;
-}
-.scl-name{
-  color: #FFF;
-
-  font-size: 75px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-.scl-abt{
-  color: #FFF;
-  font-family: Inria Serif;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
