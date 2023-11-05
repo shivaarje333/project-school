@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,53 +18,56 @@
     <!-- header with nav -->
         <!-- <i class="fa-solid fa-bars" id="click"></i> -->
     <header>
-        <div class="container
+        <nav class="navigator">
+            <div class="container
         ">
         <div class="d-flex justify-content-between align-items-center">
             <div class="logo">
-                <img src="./images/logo.svg" alt="">
+                <img src="./images/logoo.svg" alt="">
             </div>
          <ul class="nav align-items-center">
              <li class="nav-item">
-                <a href="" class="nav-link"> Home   <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                <a href="" class="nav-link text-light"> Home   <i class="fa-sharp fa-solid fa-caret-down"></i></a>
              </li>
              <li class="nav-item">
-                 <a href="" class="nav-link">School   <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                 <a href="" class="nav-link text-light">School   <i class="fa-sharp fa-solid fa-caret-down"></i></a>
              </li>
              <li class="nav-item">
-               <a href="" class="nav-link">All Event</a>
+               <a href="" class="nav-link text-light">All Event</a>
              </li>
              <li class="nav-item">
-                 <a href="" class="nav-link">Our Achivement</a>
+                 <a href="" class="nav-link text-light">Our Achivement</a>
              </li>
              <li class="nav-item">
-                 <a href="" class="nav-link">Disclosures  <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                 <a href="" class="nav-link text-light">Disclosures  <i class="fa-sharp fa-solid fa-caret-down"></i></a>
              </li>
              <li class="nav-item">
-                 <a href="" class="nav-link">Inquiry</a>
+                 <a href="" class="nav-link text-light">Inquiry</a>
              </li>
              <li class="nav-item">
-                 <a href="" class="nav-link">Contact</a>
+                 <a href="" class="nav-link text-light">Contact</a>
              </li>
          </ul>
-         <div class="_output_btn">
+         <div class="output_btn">
             <button class="signup-button"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</button>
          </div>
         </div>
         </div>
+        </nav>
+        
      </header>
      <!-- <input type="checkbox" id="click"> -->
      <!-- part_of _school_pramotion -->
-     <section>
+     <section class="hero">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="_heading">
+                    <div class="heading">
                         <p>
                             Welcome to IPS Ideal Public School
                         </p>
                     </div>
-                    <div class="_pramotion">
+                    <div class="pramotion">
                         <p>This site looks a little risky to us, so we flagged it just in case.Make sure you trust this site if you
                         </p>
                     </div>
@@ -97,20 +101,35 @@
         </div>
      </section>
    </main>
-   <article>
+   <article class="sclInfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4> <span class="text-green">About</span> IDEAL PUBLIC SCHOOL.</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <button class="btn signup-button"><i class="fa-solid fa-phone"></i> Read More</button>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <img src="images/big-l.svg" class="w-75" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </article>
+   <article class="tabs-section">
         <div class="container">
             <h3>Meet the Crew</h3>
             <p>These Re the People that make the magic happen</p>
-            <div class="line">
-                
+            <div class="line"> 
             </div>
             <div class="tab my-5">
-                <ul class="nav nav-pills nav-fill">
+                <ul class="nav nav-pills nav-fill list-unstyled">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Principal</a>
+                      <a class="nav-link active" role="tab" title="click-now" data-bs-toggle="tab" aria-current="page" href="#first">Principal</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Accountant</a>
+                      <a class="nav-link" title="click-now" role="tab" data-bs-toggle="tab" aria-current="page" href="#second">Accountant</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Music Teacher</a>
@@ -130,14 +149,29 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
-                </ul>
-               <div class="d-flex"  id="cardImg">
-                    <!-- looping use -->
-               </div>
+                </ul>  
+                <div class="tab-content">
+                    <div class="tab-pane active" id="first">
+                        <div class="d-flex"  id="principle">
+                        </div>                    
+                    </div>
+                    <div class="tab-pane" id="second">
+                        <div class="d-flex"  id="accountant">   
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
    </article>
-   <footer>
+   <article>
+        <div class="conatiner">
+            <div class="text-center">
+                <h4>Our Faculties Messages</h4>
+                <p>These are the People that make the magic happen </p>
+            </div>
+        </div>
+   </article>
+   <footer class="foot">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -149,7 +183,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <ul class="">
+                    <ul class="list-unstyled">
                         <li>
                             <h4>  Quick Links   </h4>
                         </li>
@@ -171,7 +205,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <ul>
+                    <ul class="list-unstyled">
                         <li>
                             <h4>Panels</h4>
                         </li>
@@ -187,7 +221,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3">
-                    <ul>
+                    <ul class="list-unstyled">
                         <li>
                             <h4>Contact Us </h4>
                         </li>

@@ -1,18 +1,12 @@
 body {
-  font-family: Abhaya Libre ExtraBold;
-}
-
-
-a {
-  color: black !important;
+  font-family: "Inria Serif", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .text-green {
   color: #28A745 !important;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .signup-button {
@@ -22,37 +16,57 @@ ul {
   border: 0px;
   color: white;
   gap: 3px;
-  width: 115px;
   height: 43px;
+  width: 115px;
 }
 
-i {
+.navigator a {
+  color: black !important;
+}
+.navigator i {
   width: 27px;
   height: 24px;
 }
 
-main {
+.sclInfo {
+  margin-top: 100px;
+  padding: 20x;
+  box-shadow: 0px 0px 0px 0px;
+}
+.sclInfo .signup-button {
+  width: 130px;
+}
+
+.hero {
   background-image: url(./images/bgImg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 10px;
+  position: relative;
+  padding-bottom: 114px;
 }
-main a {
-  text-decoration: none;
-  color: white !important;
+.hero .card {
+  position: absolute;
+  margin-top: 29px;
+  margin-right: 87px;
+}
+.hero .card p {
+  margin-bottom: 0 !important;
+  font-size: 14px;
+}
+.hero .card .logo img {
+  width: 250px;
+  margin-left: 22px;
 }
 
-/* section {
-  margin-top: 128px;
-} */
-
-._heading {
+.heading {
   font-size: 60px;
   line-height: 79px;
   color: white;
 }
 
-._pramotion {
+.pramotion {
   font-size: 20px;
   color: white;
 }
@@ -63,32 +77,44 @@ main a {
   padding: 10px;
   border: 0;
   color: white;
-}/*# sourceMappingURL=styles.css.map */
+}
 
-/* gulshan codes */
-*{
-  padding: 0px;
+.tabs-section {
+  margin-top: 83px;
+  text-align: center;
+}
+.tabs-section .nav-pills .nav-link.active, .tabs-section .nav-pills .show > .nav-link {
+  color: white !important;
+  background-color: #28A745;
+}
+.tabs-section .tab a {
+  color: gray;
+}
+.tabs-section .line {
+  display: inline-block;
+  margin-top: 10px;
+  width: 193px;
   margin: 0 auto;
+  background-color: #28A745;
+  height: 3px;
+}
+.tabs-section p {
+  margin-bottom: 0 !important;
+  font-size: 15px;
 }
 
-.scl-data{
-  top: 120px;
-  left: 52px;
-  color: white;
+.foot {
+  margin-top: 20px;
+  padding: 25px;
+  background: linear-gradient(210.37deg, rgba(16, 54, 123, 0.88) 21.73%, rgba(16, 54, 123, 0) 132.48%);
 }
-.scl-name{
-  color: #FFF;
-
-  font-size: 75px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+.foot li {
+  margin-bottom: 1px;
 }
-.scl-abt{
-  color: #FFF;
-  font-family: Inria Serif;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+.foot a, .foot p, .foot h4 {
+  color: white !important;
 }
+.foot p {
+  margin-bottom: 0 !important;
+  font-size: 15px;
+}/*# sourceMappingURL=styles.css.map */
