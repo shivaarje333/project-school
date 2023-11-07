@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.control-next, .control-prev {
+  position: absolute;
+  right: -700px;
+  z-index: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  color: #fff;
+  background: #03B97C;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+}
+
+.control-prev {
+  right: -600px;
+}
+
+.vission {
+  width: 75%;
+  margin-top: 150px;
+  margin-left: 150px;
+}
+
+.staff-info {
+  margin-top: 100px;
+}
+
+.nav-item {
+  font-weight: 700;
+}
+
+.logincard {
+  margin: 0 auto;
+}
+
+footer {
+  background: linear-gradient(210.37deg, rgba(16, 54, 123, 0.88) 21.73%, rgba(16, 54, 123, 0) 132.48%);
+}/*# sourceMappingURL=style.css.map */
