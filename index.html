@@ -14,16 +14,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-   <main>
-    <!-- header with nav -->
-        <!-- <i class="fa-solid fa-bars" id="click"></i> -->
-    <header>
-        <nav class="navigator">
-            <div class="container
-        ">
-        <div class="d-flex justify-content-between align-items-center">
-            <div class="logo">
-                <img src="./images/logoo.svg" alt="">
+    <header class="bg-light">
+        <div class="container-fluid">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center">
+                    <img src="./asset/img/logo.svg" alt="" class="w-50">
+                    <h1>IPS</h1>
+                </div>
+                <ul class="d-flex justify-content-center list-unstyled mt-3 gap-5">
+                    <li>
+                        <a href="#" class="text-decoration-none text-secondary h6">Home <i
+                                class="fa-sharp fa-solid fa-caret-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-secondary h6">School <i
+                                class="fa-sharp fa-solid fa-caret-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-secondary h6">All Events</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-secondary h6">Our Achievements</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-secondary h6">Disclousres <i
+                                class="fa-sharp fa-solid fa-caret-down"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-secondary h6">Enquires</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-decoration-none text-secondary h6">Contacts</a>
+                    </li>
+                </ul>
+                <div class=" text-center">
+                    <button type="button" class="btn btn-success"><i class="fa-solid fa-right-to-bracket"></i> Sign
+                        In</button>
+                </div>
             </div>
          <ul class="nav align-items-center">
              <li class="nav-item">
@@ -73,19 +100,35 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-space-between">
-                <div class="connect my-2">
-                    <button><i class="fa-solid fa-phone"></i>Enquiry for Addmission</button>
-                    <button class="bg-light text-green ms-3"> <i class="fa-solid fa-cloud-arrow-down"></i> Download Admission Form</button>
-               </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <div class="row align-items-center">
-                        <div class="col-md-2">
-                            <div class="logo text-center">
-                                <img src="images/logo.svg" alt="ideal public school waraseoni">
-                            </div>
+            <div class="scl-data position-absolute" style="top: 120px;left: 80px;color: white;">
+                <h1 class="scl-name" style="font-size: 50px;">
+                    Welcome to IPS <br>
+                    Ideal Public School
+                </h1>
+                <p class="scl-abt h4 mt-5">
+                    This site looks a little risky to us, so we flagged it just in case. <br>
+                    Make sure you trust this site if you
+                </p>
+                <div class="d-flex justify-space-between gap-5 mt-5 ms-2 position-absolute">
+                    <button type="button" class="btn btn-success btn-lg shadow"><i class="fa-solid fa-phone"></i>
+                        Enquiry for
+                        Addmission</button>
+                    <button type="button" class="btn btn-white btn-lg shadow bg-white text-success"><i
+                            class="fa-solid fa-download"></i> Download
+                        Addmission Form</button>
+                    <button class="control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="card shadow vission p-2">
+                    <div class="d-flex gap-4">
+                        <div class="img">
+                            <img src="./asset/img/logo.svg" alt="">
                         </div>
                         <div class="col-md-10">
                             <div class="card-title">
@@ -103,70 +146,8 @@
    </main>
    <article class="sclInfo">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <h4> <span class="text-green">About</span> IDEAL PUBLIC SCHOOL.</h4>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <button class="btn signup-button"><i class="fa-solid fa-phone"></i> Read More</button>
-                </div>
-                <div class="col-md-4">
-                    <div class="text-center">
-                        <img src="images/big-l.svg" class="w-75" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-   </article>
-   <article class="tabs-section">
-        <div class="container">
-            <h3>Meet the Crew</h3>
-            <p>These Re the People that make the magic happen</p>
-            <div class="line"> 
-            </div>
-            <div class="tab my-5">
-                <ul class="nav nav-pills nav-fill list-unstyled">
-                    <li class="nav-item">
-                      <a class="nav-link active" role="tab" title="click-now" data-bs-toggle="tab" aria-current="page" href="#first">Principal</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" title="click-now" role="tab" data-bs-toggle="tab" aria-current="page" href="#second">Accountant</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Music Teacher</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pti</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Computer Teachar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Libarian</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Teachars</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                </ul>  
-                <div class="tab-content">
-                    <div class="tab-pane active" id="first">
-                        <div class="d-flex"  id="principle">
-                        </div>                    
-                    </div>
-                    <div class="tab-pane" id="second">
-                        <div class="d-flex"  id="accountant">   
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-   </article>
-   <article>
-        <div class="conatiner">
-            <div class="text-center">
-                <h4>Our Faculties Messages</h4>
+            <div class="staff-info   text-center">
+                <h2>Meet the crew</h2>
                 <p>These are the People that make the magic happen </p>
             </div>
         </div>
@@ -243,6 +224,5 @@
    </footer>
    <script src="script.js"></script>
 </body>
+
 </html>
-
-
