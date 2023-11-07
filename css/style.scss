@@ -168,6 +168,15 @@ body {
 
 .staff-info{
   margin-top: 125px;
+  .card:hover{
+    border: 3px solid red;
+  }
+}
+.staff-infocard{
+  .card:hover{
+    border: 3px solid rgba(37, 174, 43, 1);
+    ;
+  }
 }
 .textsize{
   font-size: 14px;

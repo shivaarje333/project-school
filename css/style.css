@@ -172,6 +172,13 @@ body {
 .staff-info {
   margin-top: 125px;
 }
+.staff-info .card:hover {
+  border: 3px solid red;
+}
+
+.staff-infocard .card:hover {
+  border: 3px solid rgb(37, 174, 43);
+}
 
 .textsize {
   font-size: 14px;
