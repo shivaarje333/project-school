@@ -163,12 +163,30 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   top: 144px;
+  background: white;
+  z-index: 999;
+}
+
+#UserLoginPage {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 27px;
   background: white;
   z-index: 999;
 }
 
 .staff-info {
   margin-top: 125px;
+}
+
+#UserLoginPage li {
+  margin-bottom: 50px;
+}
+#UserLoginPage li button {
+  width: 290px;
+  height: 60px;
 }/*# sourceMappingURL=style.css.map */
