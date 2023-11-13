@@ -8,20 +8,22 @@ signupform=document.getElementById('signupform');
 UserLoginPageBtn=document.getElementById('UserLoginPageBtn');
 // first nav click btn for sign in users
 signinbtn.addEventListener('click',()=>{
-     signinform.classList.toggle("d-none")
+     signinform.classList.remove("d-none")
 })
 // login page for specific type of user
 for(i of togglesign){
      i.addEventListener('click',()=>{
-          UserLoginPage.classList.remove("d-none")
+          UserLoginPage.classList.remove("d-none");
+          signinform.classList.add("d-none")
      })   
 }
 
 SignUpFormBtn.addEventListener('click',()=>{
      signupform.classList.remove('d-none');
+     UserLoginPage.classList.add("d-none");
      
 })
 UserLoginPageBtn.addEventListener('click',()=>{
      UserLoginPage.classList.remove("d-none");
-     signupform.classList.remove('d-block');
+     signupform.classList.add('d-none');
 })
