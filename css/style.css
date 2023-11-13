@@ -179,6 +179,19 @@ body {
   z-index: 999;
 }
 
+#signupform {
+  margin: 0 auto;
+  background: white;
+  z-index: 999;
+}
+#signupform li {
+  margin-bottom: 50px;
+}
+#signupform li button {
+  width: 290px;
+  height: 60px;
+}
+
 .staff-info {
   margin-top: 125px;
 }

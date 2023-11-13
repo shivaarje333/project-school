@@ -14,11 +14,3 @@ for(i of togglesign){
      })
      
 }
-document.body.addEventListener('click', function(){
-   if(UserLoginPage.style.display = "block"){
-     UserLoginPage.style.display = "none"     
-   }else{
-     UserLoginPage.style.display = "block"
-   }
-   
-})
