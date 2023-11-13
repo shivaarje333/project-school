@@ -135,6 +135,10 @@ body {
   font-size: 0.9rem;
 }
 
+button {
+  background-color: #03B97C;
+}
+
 .control-next, .control-prev {
   position: absolute;
   right: -700px;
@@ -180,10 +184,26 @@ body {
 }
 
 #signupform {
+  background-image: url(../images/gulshan-img/image13.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
   margin: 0 auto;
-  background: white;
+  top: 27px;
   z-index: 999;
-  background-image: url(./images/gulshan-img/);
+}
+#signupform form .row {
+  padding: 30px;
+}
+#signupform button {
+  width: 110px;
+  height: 40px;
+  background-color: #03B97C;
+}
+#signupform form label {
+  color: #03B97C;
 }
 #signupform li {
   margin-bottom: 50px;
