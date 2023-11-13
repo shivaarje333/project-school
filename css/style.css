@@ -183,6 +183,7 @@ body {
   margin: 0 auto;
   background: white;
   z-index: 999;
+  background-image: url(./images/gulshan-img/);
 }
 #signupform li {
   margin-bottom: 50px;
