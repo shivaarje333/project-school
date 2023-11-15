@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="p-2">
+        <div class="container-fluid w-100">
+            <div class="d-flex align-items-center">
+                <div class="col-md-2 d-flex align-items-center">
+                  <div class="logo">
+                    <img src="./images/gulshan-img/1695614638_school_mono-removebg-preview 2.svg" alt="" class="w-50">
+                  </div>
+                    <h1>IPS</h1>
+                </div>
+                <div class="col-md-8">
+                    <ul class="d-flex justify-content-center list-unstyled mt-3  gap-5">
+                        <li>
+                            <a href="#" class="text-decoration-none text-secondary h6">Home  <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-secondary h6">School  <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-secondary h6">All Events</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-secondary h6">Our Achievements</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-secondary h6">Disclousres  <i class="fa-sharp fa-solid fa-caret-down"></i></a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-secondary h6">Enquires</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-secondary h6">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2 text-end">
+                    <button type="button" class="btn btn-success" id="signinbtn"><i class="fa-solid fa-right-to-bracket"></i> Sign In</button>
+                </div>
+            </div>
+        </div>
+   </header>
+   <article class="lightbrown">
+        <div class="container w-75">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-wrap ">
+                        <ul class="nav nav-pills justify-content-evenly my-4" role="tablist">
+                            <li class="nav-item">
+                                <a href="#tab1" class="nav-link btn btn-success border border-dark active" data-bs-toggle="tab" style="padding: 10px 50px;">Student</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#tab2" class="nav-link btn btn-success border border-dark" data-bs-toggle="tab" style="padding: 10px 50px;">Teacher</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#tab3" class="nav-link btn btn-success border border-dark" data-bs-toggle="tab" style="padding: 10px 50px;">Parants</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content bg-content">
+                            <div class="tab-pane text-center active" id="tab1">
+                                <form action="">
+                                    <div>
+                                        <input type="text" placeholder="First name" class="mt-4 me-5 p-2">
+                                        <input type="text" placeholder="Last name" class="p-2">
+                                    </div>
+                                    <div class="my-4">
+                                        <input type="text" placeholder="First name" class="mt-4 me-5 p-2">
+                                        <input type="text" placeholder="Last name" class="p-2">
+                                    </div>
+                                    
+                                </form>
+                                <button type="button" class="btn btn-success">Sign up</button>
+                                <p>Already have an account <a href="#">Log in</a></p>
+                            </div>
+                            <div class="tab-pane text-center" id="tab2">
+                                <div>
+                                      <input type="text" placeholder="shivam arje">
+                                      <input type="text" placeholder="Last name">
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="First name">
+                                    <input type="text" placeholder="Last name">
+                                </div>
+                            </div>
+                            <div class="tab-pane text-center" id="tab3">
+                                <div>
+                                      <input type="text" placeholder="gulshan qureshi">
+                                      <input type="text" placeholder="Last name">
+                                </div>
+                                <div>
+                                    <input type="text" placeholder="First name">
+                                    <input type="text" placeholder="Last name">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </article>
+</body>
+</html>
