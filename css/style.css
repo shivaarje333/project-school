@@ -223,4 +223,44 @@ button {
 #UserLoginPage li button {
   width: 290px;
   height: 60px;
+}
+
+.animation-point img {
+  max-width: 50%;
+  height: 50%;
+}
+.animation-point .move-1 {
+  top: -48px;
+  right: 189px;
+}
+.animation-point .move-2 {
+  bottom: -43px;
+  right: -39px;
+}
+
+@keyframes move1 {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(170%);
+  }
+}
+@keyframes move2 {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-170%);
+  }
+}
+.animation-point:hover .move-1 {
+  animation: move1 5s infinite alternate;
+}
+.animation-point:hover .move-2 {
+  animation: move2 5s infinite alternate;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
