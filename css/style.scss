@@ -121,6 +121,9 @@ body {
      padding: 6px 16px;
      font-size: 0.9rem;
    }
+  button{
+  background-color: #03B97C;
+}
 
 .control-next, .control-prev {
     position: absolute;
@@ -149,11 +152,114 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   top: 144px;
   background: white;
   z-index: 999;
 }
+<<<<<<< HEAD
+=======
+#UserLoginPage{
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 27px;
+  background: white;
+  z-index: 999;
+}
+#signupform{
+  background-image: url(../images/gulshan-img/image13.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 27px;
+  z-index: 999;
+  form{
+    .row{
+      padding: 30px;
+}
+  }
+  button{
+    width: 110px;
+    height: 40px;
+    background-color: #03B97C;
+  }
+form{
+  label{
+    color: #03B97C;
+  }
+}
+  li{
+    margin-bottom: 50px;
+
+    button{
+      width: 290px;
+      height: 60px;
+    }
+  }
+}
+
+>>>>>>> 7abceba9247bd5ba921bc86e878bbe56e4999b5b
 .staff-info{
   margin-top: 125px;
+}
+
+#UserLoginPage{
+  li{
+    margin-bottom: 50px;
+    button{
+      width: 290px;
+      height: 60px;
+    }
+  }
+}
+
+.animation-point{
+  img{
+    max-width: 50%;
+    height: 50%;
+  }
+  .move-1 {
+    top: -48px;
+    right: 189px;
+  }
+  
+  .move-2{
+    bottom: -43px;
+    right: -39px;
+  }
+}
+.animation-point:hover{
+  
+@keyframes move1{
+  from {
+transform: translateY(0%);
+  }
+  to {
+transform: translateY(170%);
+  }
+}
+@keyframes move2{
+  from {
+transform: translateY(0%);
+  }
+  to {
+transform: translateY(-170%);
+  }
+}
+
+.move-1 {
+  animation: move1 5s infinite alternate;
+}
+
+.move-2{
+  animation: move2 5s infinite alternate;
+}
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  color:white;
 }
