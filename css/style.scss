@@ -245,7 +245,7 @@ form{
     right: -39px;
   }
 }
-.animation-point:hover{
+
   
 @keyframes move1{
   from {
@@ -271,7 +271,7 @@ transform: translateY(-170%);
 .move-2{
   animation: move2 5s infinite alternate;
 }
-}
+
 .breadcrumb-item+.breadcrumb-item::before {
   color:white;
 }
