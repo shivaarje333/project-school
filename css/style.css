@@ -139,6 +139,10 @@ body {
   font-size: 0.9rem;
 }
 
+button {
+  background-color: #03B97C;
+}
+
 .control-next, .control-prev {
   position: absolute;
   right: -700px;
@@ -167,16 +171,57 @@ body {
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   top: 144px;
   background: white;
   z-index: 999;
+}
+
+#UserLoginPage {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 27px;
+  background: white;
+  z-index: 999;
+}
+
+#signupform {
+  background-image: url(../images/gulshan-img/image13.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 27px;
+  z-index: 999;
+}
+#signupform form .row {
+  padding: 30px;
+}
+#signupform button {
+  width: 110px;
+  height: 40px;
+  background-color: #03B97C;
+}
+#signupform form label {
+  color: #03B97C;
+}
+#signupform li {
+  margin-bottom: 50px;
+}
+#signupform li button {
+  width: 290px;
+  height: 60px;
 }
 
 .staff-info {
   margin-top: 125px;
 }
 
+<<<<<<< HEAD
 .textsize {
   font-size: 14px;
 }
@@ -186,4 +231,52 @@ body {
   background: rgb(3, 185, 124);
   color: #fff;
   height: 60px;
+=======
+#UserLoginPage li {
+  margin-bottom: 50px;
+}
+#UserLoginPage li button {
+  width: 290px;
+  height: 60px;
+}
+
+.animation-point img {
+  max-width: 50%;
+  height: 50%;
+}
+.animation-point .move-1 {
+  top: -48px;
+  right: 189px;
+}
+.animation-point .move-2 {
+  bottom: -43px;
+  right: -39px;
+}
+
+@keyframes move1 {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(170%);
+  }
+}
+@keyframes move2 {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-170%);
+  }
+}
+.animation-point:hover .move-1 {
+  animation: move1 5s infinite alternate;
+}
+.animation-point:hover .move-2 {
+  animation: move2 5s infinite alternate;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+>>>>>>> 7abceba9247bd5ba921bc86e878bbe56e4999b5b
 }/*# sourceMappingURL=style.css.map */
