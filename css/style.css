@@ -254,10 +254,11 @@ button {
     transform: translateY(-170%);
   }
 }
-.animation-point:hover .move-1 {
+.move-1 {
   animation: move1 5s infinite alternate;
 }
-.animation-point:hover .move-2 {
+
+.move-2 {
   animation: move2 5s infinite alternate;
 }
 
