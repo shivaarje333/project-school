@@ -112,6 +112,10 @@ body {
   font-size: 15px;
 }
 
+.staffinfo-card .card:hover {
+  border: 2px solid rgb(37, 174, 43);
+}
+
 .foot {
   margin-top: 20px;
   padding: 25px;
@@ -175,4 +179,11 @@ body {
 
 .textsize {
   font-size: 14px;
+}
+
+.login-page li button {
+  width: 280px;
+  background: rgb(3, 185, 124);
+  color: #fff;
+  height: 60px;
 }/*# sourceMappingURL=style.css.map */

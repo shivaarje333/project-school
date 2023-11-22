@@ -102,6 +102,11 @@ body {
      margin-bottom: 0 !important;
      font-size: 15px;
    }
+   .staffinfo-card{
+    .card:hover{
+      border: 2px solid rgba(37, 174, 43, 1);
+    }
+   }
    
    .foot {
      margin-top: 20px;
@@ -171,4 +176,14 @@ body {
 }
 .textsize{
   font-size: 14px;
+}
+.login-page{
+  li{
+    button{
+      width: 280px;
+      background: rgba(3, 185, 124, 1);
+      color: #fff;
+      height: 60px;
+    }
+  }
 }
